@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusEats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        .header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .hero {
+            background-image: linear-gradient(to bottom, #f1c40f, #e67e73);
+            background-size: 100% 300px;
+            background-position: 0% 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: #fff;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .hero button {
+            background-color: #2ecc71;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .hero button:hover {
+            background-color: #27ae60;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .feature {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .feature h2 {
+            margin-top: 0;
+        }
+        .how-it-works {
+            padding: 20px;
+        }
+        .how-it-works h2 {
+            margin-top: 0;
+        }
+        .how-it-works ol {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .how-it-works li {
+            margin-bottom: 10px;
+        }
+        .how-it-works li:before {
+            content: "\2022";
+            margin-right: 10px;
+        }
+        .footer {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+        @media only screen and (max-width: 768px) {
+            .features {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>CampusEats</h1>
+    </div>
+    <div class="hero">
+        <h1>Discover Delicious Homemade Meals on Campus</h1>
+        <p>Buy and sell homemade meals with your peers</p>
+        <button>Get Started</button>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <h2>Meal Listing</h2>
+            <p>Create and manage listings for your homemade meals</p>
+        </div>
+        <div class="feature">
+            <h2>Search and Filter</h2>
+            <p>Find meals based on price, cuisine, and dietary restrictions</p>
+        </div>
+        <div class="feature">
+            <h2>In-App Payment</h2>
+            <p>Securely pay for meals through the app</p>
+        </div>
+        <div class="feature">
+            <h2>Rating and Review System</h2>
+            <p>Rate and review your meal experiences</p>
+        </div>
+        <div class="feature">
+            <h2>Social Sharing</h2>
+            <p>Share your meal experiences on social media</p>
+        </div>
+        <div class="feature">
+            <h2>Referral Program</h2>
+            <p>Earn rewards for inviting your friends to join</p>
+        </div>
+    </div>
+    <div class="how-it-works">
+        <h2>How It Works</h2>
+        <ol>
+            <li>Download the CampusEats app and create an account</li>
+            <li>Browse and search for meals that fit your cravings and dietary needs</li>
+            <li>Purchase meals securely through the app</li>
+            <li>Rate and review your meal experiences to help others</li>
+            <li>Share your favorite meals on social media and invite friends to join</li>
+        </ol>
+    </div>
+    <div class="footer">
+        &copy; 2026 CampusEats
+    </div>
+</body>
+</html>
