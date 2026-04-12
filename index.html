@@ -1,0 +1,133 @@
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #e74c3c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 50px;
+}
+
+.feature-grid div {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-grid h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.feature-grid p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.how-it-works {
+  margin-top: 50px;
+}
+
+.how-it-works h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.how-it-works p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .feature-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="hero">
+    <h1>CampusEats</h1>
+    <p>Order food from your favorite local restaurants and get it delivered to your doorstep</p>
+    <button>Get Started</button>
+  </div>
+  <div class="feature-grid">
+    <div>
+      <h2>Restaurant Partnerships</h2>
+      <p>We partner with local restaurants to offer a diverse range of cuisine options</p>
+    </div>
+    <div>
+      <h2>User Profiles</h2>
+      <p>Create a profile to save your favorite restaurants and track your order history</p>
+    </div>
+    <div>
+      <h2>Real-Time Order Tracking</h2>
+      <p>Track the status of your orders in real-time, from preparation to delivery</p>
+    </div>
+  </div>
+  <div class="how-it-works">
+    <h1>How It Works</h1>
+    <p>1. Browse our partner restaurants and choose your favorite dishes</p>
+    <p>2. Place your order and pay securely through our app</p>
+    <p>3. Track the status of your order in real-time and receive updates via push notifications and email</p>
+  </div>
+</div>
+<div class="footer">
+  &copy; 2026 CampusEats
+</div>
+</body>
+</html>
